@@ -2,32 +2,29 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Trello</title>
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="app.js">
 	<script src="https://use.fontawesome.com/7b33261934.js"></script>
+	<title>Trello</title>
 
 </head>
 <body>
 <header id="menu">
-
-	<ul>
-		<li><span><i class="fa fa-trello" aria-hidden="true"></i></span></li>
-		<li><span><p><em>Trello</em></p></span></li>
-		<li><span><i class="fa fa-plus-square" aria-hidden="true"></i></span></li>
-		<li><span><i class="fa fa-info" aria-hidden="true"></i></span></li>
-		<li><span><i class="fa fa-bell-o" aria-hidden="true"></i></span></li>
-	</ul>
+<img src="img/mitrello.png" alt="logo">
 
 </header>
-	<section>
-			<div class="firts-box">
-			<textarea class="txt" id="comment" placeholder="Añadir una Lista"></textarea>
-			<button type="button" id="btn" onclick="add()"><i class="fa fa-plus" aria-hidden="true"></i>AÑADIR</button>
-			
-				
-			</div>
-		
-	</section>
+ <h2>Tablero Reto de Código</h2>
+ <br>
+
+ <form id=formulario>
+	 <input id="list-name-input" type="text" name="name" value="Añadir una Lista...">
+
+	 <input id="green-botton" type="submit" value="Guardar"><i class="fa fa-times" aria-hidden="true"></i>
+ </form>
+
+<div>
+	  <input type="text" class="dontShow" id="show" value="" onclick="dontShow(), show()">
+</div>
+	<script type="text/javascript" src="app.js"></script>
 </body>
 </html>

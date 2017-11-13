@@ -4,37 +4,53 @@
 }
 
 body {
-	background-color: #0778C0;
+	background-color: #3AC523
 }
+
 #menu {
-	background: #026aa7;
-	overflow: hidden;
-	width: 100%;
-	height: 40px;
+    background: #18A718;
+    width: 100%;
+    height: 40px;
+
+}
+
+
+.fondo {
+	color:#fff;
+	margin-top: 20px;
+
+}
+
+h2{
+	color:#fff;
+}
+
+#formulario {
+    background-color: #dcdcde;
+    border: 1px solid #c7c7cd;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 230px;
+    margin-bottom: 5px;
+}
 	
+
+#list-name-imput {
+    background: 0 0;
+    border-color: transparent;
+    cursor: pointer;
+    display: none;
+    margin: 0;
 }
 
-ul li {
 
-}
 
-p{
-	font-size: 2s0px;
-	color:#0D02E5;
-	text-align: center;
-}
-
-.first-box{
-
-	background-color: #fff;
-	overflow: scroll;
-	overflow-x: hidden;
-	font-size: 15px;
-	padding: 30px;
-
-}
-
-textarea{
-	width: 30%;
-	height: 200px;
+#green-botton {
+    background-color: #6dbf56;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 15px;
+    border: none;
 }
