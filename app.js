@@ -1,24 +1,17 @@
-function dontShow(){
-    document.getElementById('dontShow').style.display = 'none';
-}
+var boton1 = document.getElementById('boton1');
+var oculto = document.getElementById('oculto');
 
-function show(){
-    document.getElementById('formulario').style.display = 'block';
-}
+// con este evento estoy llamando al boton 1 
+// al clickear se ejecuta la funcion 
+boton1.addEventListener('click', function () {
+//display none lo hace invisible 
+	boton1.style.display = 'none';
+//llamo al formulario , display block lo visualiza
+	oculto.style.display = 'block';
+});
 
-
-(function(){
-
-
-
-var tablero = document.getElementById("tablero");
-var inside = document.getElementById("inside");
-var escondido =document.getElementById("escondido"); 
-
-
-addList.addEventListener("click", function(){
-
-
-
-})
-
+/*
+	var boton2 = document.createElement('input');
+	boton2.setAttribute('type', 'boton2');
+	boton2.setAttribute('value', 'Guardar');
+	boton2.classList.add('btn', 'boton2');*/
